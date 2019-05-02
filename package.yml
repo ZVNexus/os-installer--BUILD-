@@ -1,8 +1,8 @@
 name       : os-installer
-version    : 16.0
-release    : 121
+version    : 17.0
+release    : 122
 source     :
-    - git|https://github.com/getsolus/os-installer.git : 9033f1e282a729cb4a6b8eec539fbb03456f8a8b
+    - https://github.com/ZVNexus/os-installer/archive/v17.tar.gz : f63dd7987d97141402433137bf07b7ab148b368d50ffa1235d94915f015f030b
 homepage   : https://www.solus-project.com
 license    :
     - GPL-2.0
@@ -19,6 +19,7 @@ rundeps    :
     - python-gobject
     - python-parted
     - setxkbmap
+    - f2fs-tools
 description: |
     Install OS to disk
 build      : |
